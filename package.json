@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/querystring",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Titanium native mobile polyfill for Node.js querystring repackaged from ljharb/qs",
 	"main": "lib/index.js",
 	"scripts": {
@@ -10,10 +10,10 @@
 	},
 	"contributors": [
 		{
-            "name": "Jordan Harband",
-            "email": "ljharb@gmail.com",
-            "url": "http://ljharb.codes"
-        }
+			"name": "Jordan Harband",
+			"email": "ljharb@gmail.com",
+			"url": "http://ljharb.codes"
+		}
 	],
 	"maintainers": [
 		{
@@ -49,6 +49,6 @@
 		"modules",
 		"querystring",
 		"qs",
-		"brentonhouse"
+		"brenton-house"
 	]
 }
