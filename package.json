@@ -1,12 +1,15 @@
 {
 	"name": "@titanium/querystring",
-	"version": "0.0.2",
-	"description": "Titanium native mobile polyfill for Node.js querystring repackaged from ljharb/qs",
+	"version": "1.0.1",
+	"description": "⭐  Axway Amplify module adding querystring support to Appcelerator Titanium SDK",
 	"main": "lib/index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"list-files": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
-		"lint": "eslint . --"
+		"lint": "eslint . --fix",
+		"list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
+		"prep": "npm install --ignore-scripts && npm run list",
+		"test": "npm run prep",
+		"prepublishOnly2": "git pull && npm test && bump insane",
+		"prepublishOnly": "git pull && npm test && npm audit fix && bump insane"
 	},
 	"contributors": [
 		{
@@ -24,17 +27,27 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "github:brentonhouse/titanium-querystring"
+		"url": "github:mobilehero-archive/titanium-querystring"
 	},
 	"license": "BSD-3-Clause",
 	"devDependencies": {
-		"@geek/eslint-config": "0.0.7",
-		"eslint": "^5.16.0",
-		"eslint-plugin-import": "^2.17.3",
-		"eslint-plugin-jsdoc": "^7.2.3",
-		"eslint-plugin-promise": "^4.1.1"
+		"@geek/eslint-config": "1.0.3",
+		"eslint": "^8.6.0",
+		"eslint-plugin-import": "^2.25.4",
+		"eslint-plugin-jsdoc": "^37.5.1",
+		"eslint-plugin-promise": "^6.0.0"
 	},
-	"dependencies": {},
+	"dependencies": {
+		"@geek/logger": "^1.0.17",
+		"@titanium/bluebird": "^3.7.8",
+		"@titanium/errors": "^1.0.5",
+		"@titanium/essentials": "^1.0.35",
+		"@titanium/jwt": "^1.0.8",
+		"@titanium/module-copier": "^1.0.13",
+		"@titanium/please": "^1.0.16",
+		"@titanium/turbo": "^2.2.22"
+	},
+	"homepage": "https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de",
 	"keywords": [
 		"titanium",
 		"mobile",
@@ -49,6 +62,16 @@
 		"modules",
 		"querystring",
 		"qs",
+		"sdk",
+		"plugin",
+		"amplify",
+		"api-builder",
+		"appcelerator-titanium",
+		"titanium-sdk",
+		"titanium-mobile",
+		"titanium-module",
+		"axway-sdk",
+		"axway-amplify",
 		"brenton-house"
 	]
 }

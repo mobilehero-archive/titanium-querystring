@@ -1,3 +1,29 @@
+<a href="https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de">
+	<h1 align="center">
+	🪦 RIP Axway Amplify Titanium (2010 - 2022)
+	</h1>
+</a>
+<a href="https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de">
+	<p align="center">
+		<img src="https://cdn.secure-api.org/images/RIP-Axway-Amplify-Titanium.png" alt="RIP Axway Amplify Titanium (2010 - 2022)" width="80%" />
+	</p>
+</a>
+<a href="https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de">
+	<p align="center">
+		🪦 &nbsp; RIP Axway Amplify Titanium (2010 - 2022)
+	</p>
+</a>
+<p>&nbsp;</p>
+<a href="https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de">
+	<h2 align="center">
+		🛑 This project is no longer being maintained 🛑
+	</h2>
+</a>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
 # @titanium/querystring
 
 [![@titanium/querystring](https://img.shields.io/npm/v/@titanium/querystring.png)](https://www.npmjs.com/package/@titanium/querystring)
@@ -10,15 +36,15 @@
 
 The **qs** module was originally created and maintained by [TJ Holowaychuk](https://github.com/visionmedia/node-querystring).
 
-- [🚀 Getting Started](#-Getting-Started)
-- [Usage](#Usage)
-	- [Parsing Objects](#Parsing-Objects)
-	- [Parsing Arrays](#Parsing-Arrays)
-	- [Stringifying](#Stringifying)
-	- [Handling of `null` values](#Handling-of-null-values)
-	- [Dealing with special character sets](#Dealing-with-special-character-sets)
-	- [RFC 3986 and RFC 1738 space encoding](#RFC-3986-and-RFC-1738-space-encoding)
-- [Security](#Security)
+* [🚀 Getting Started](#-getting-started)
+* [Usage](#usage)
+	* [Parsing Objects](#parsing-objects)
+	* [Parsing Arrays](#parsing-arrays)
+	* [Stringifying](#stringifying)
+	* [Handling of `null` values](#handling-of-null-values)
+	* [Dealing with special character sets](#dealing-with-special-character-sets)
+	* [RFC 3986 and RFC 1738 space encoding](#rfc-3986-and-rfc-1738-space-encoding)
+* [Security](#security)
 
 ## 🚀 Getting Started
 
