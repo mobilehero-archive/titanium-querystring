@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/querystring",
-	"version": "1.0.17",
+	"version": "1.0.18",
 	"description": "⭐  Axway Amplify module adding querystring support to Appcelerator Titanium SDK",
 	"main": "lib/index.js",
 	"scripts": {
